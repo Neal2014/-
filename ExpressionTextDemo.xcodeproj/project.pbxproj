@@ -15,6 +15,9 @@
 		22C065BA1CC75E8D0011C62E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22C065B81CC75E8D0011C62E /* LaunchScreen.storyboard */; };
 		22C065C51CC75E8D0011C62E /* ExpressionTextDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C065C41CC75E8D0011C62E /* ExpressionTextDemoTests.m */; };
 		22C065D01CC75E8D0011C62E /* ExpressionTextDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C065CF1CC75E8D0011C62E /* ExpressionTextDemoUITests.m */; };
+		22C065EF1CC766290011C62E /* image1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 22C065EB1CC766290011C62E /* image1.jpg */; };
+		22C065F01CC766290011C62E /* ImageSource.plist in Resources */ = {isa = PBXBuildFile; fileRef = 22C065EC1CC766290011C62E /* ImageSource.plist */; };
+		22C065F11CC766290011C62E /* MLYTextAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C065EE1CC766290011C62E /* MLYTextAttachment.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,10 @@
 		22C065CB1CC75E8D0011C62E /* ExpressionTextDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExpressionTextDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		22C065CF1CC75E8D0011C62E /* ExpressionTextDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExpressionTextDemoUITests.m; sourceTree = "<group>"; };
 		22C065D11CC75E8D0011C62E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22C065EB1CC766290011C62E /* image1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image1.jpg; sourceTree = "<group>"; };
+		22C065EC1CC766290011C62E /* ImageSource.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ImageSource.plist; sourceTree = "<group>"; };
+		22C065ED1CC766290011C62E /* MLYTextAttachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLYTextAttachment.h; sourceTree = "<group>"; };
+		22C065EE1CC766290011C62E /* MLYTextAttachment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLYTextAttachment.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +112,10 @@
 				22C065AE1CC75E8D0011C62E /* AppDelegate.m */,
 				22C065B01CC75E8D0011C62E /* ViewController.h */,
 				22C065B11CC75E8D0011C62E /* ViewController.m */,
+				22C065EB1CC766290011C62E /* image1.jpg */,
+				22C065EC1CC766290011C62E /* ImageSource.plist */,
+				22C065ED1CC766290011C62E /* MLYTextAttachment.h */,
+				22C065EE1CC766290011C62E /* MLYTextAttachment.m */,
 				22C065B31CC75E8D0011C62E /* Main.storyboard */,
 				22C065B61CC75E8D0011C62E /* Assets.xcassets */,
 				22C065B81CC75E8D0011C62E /* LaunchScreen.storyboard */,
@@ -244,6 +255,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				22C065BA1CC75E8D0011C62E /* LaunchScreen.storyboard in Resources */,
+				22C065F01CC766290011C62E /* ImageSource.plist in Resources */,
+				22C065EF1CC766290011C62E /* image1.jpg in Resources */,
 				22C065B71CC75E8D0011C62E /* Assets.xcassets in Resources */,
 				22C065B51CC75E8D0011C62E /* Main.storyboard in Resources */,
 			);
@@ -272,6 +285,7 @@
 			files = (
 				22C065B21CC75E8D0011C62E /* ViewController.m in Sources */,
 				22C065AF1CC75E8D0011C62E /* AppDelegate.m in Sources */,
+				22C065F11CC766290011C62E /* MLYTextAttachment.m in Sources */,
 				22C065AC1CC75E8D0011C62E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -498,6 +512,7 @@
 				22C065D61CC75E8D0011C62E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		22C065D71CC75E8D0011C62E /* Build configuration list for PBXNativeTarget "ExpressionTextDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +521,7 @@
 				22C065D91CC75E8D0011C62E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		22C065DA1CC75E8D0011C62E /* Build configuration list for PBXNativeTarget "ExpressionTextDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +530,7 @@
 				22C065DC1CC75E8D0011C62E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
